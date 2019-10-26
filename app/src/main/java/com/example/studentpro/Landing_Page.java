@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class Landing_Page extends AppCompatActivity {
 
@@ -28,6 +29,9 @@ proff = findViewById(R.id.proff);
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Landing_Page.this , Prof.class));
+                Toast.makeText(getApplicationContext(), "Switched to Professional Tab. ", Toast.LENGTH_LONG).show();
+
+
 
 
 
@@ -39,6 +43,7 @@ proff = findViewById(R.id.proff);
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Landing_Page.this , Voucher.class));
+                Toast.makeText(getApplicationContext(), "Switched to Voucher Tab. ", Toast.LENGTH_LONG).show();
 
             }
         });
@@ -47,6 +52,7 @@ proff = findViewById(R.id.proff);
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Landing_Page.this , Other.class));
+                Toast.makeText(getApplicationContext(), "Switched to Other Tab. ", Toast.LENGTH_LONG).show();
 
             }
         });
