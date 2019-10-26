@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/prof_hue"
+    android:layout_height="match_parent"
+    tools:context=".Internship">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+
+        android:layout_centerHorizontal="true"
+        android:text="No internship oppurtunities \nright now"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="346dp"
+        android:layout_height="42dp"
+        android:layout_alignStart="@+id/textView23"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="506dp"
+        android:text="You are not eligible to apply \n for internships right now"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="476dp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="165dp"></View>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="217dp"
+        android:text="Build Your Resume"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="123dp"
+        android:layout_height="48dp"
+        android:layout_alignEnd="@+id/textView23"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="374dp"
+        android:background="@drawable/prof_button"
+        android:text="Build Resume"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginBottom="104dp"
+        android:text="Apply" />
+
+</RelativeLayout>

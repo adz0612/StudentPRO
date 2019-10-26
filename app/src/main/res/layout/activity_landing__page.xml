@@ -40,7 +40,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="145dp"
-        android:progress="75"
+
         android:scrollbarSize="4dp"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="175dp" />
@@ -90,15 +90,34 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="12dp"
         android:layout_marginLeft="12dp"
+
         android:layout_marginTop="285dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
+
             android:orientation="vertical">
 
-            <TextView
+            <Button
                 android:id="@+id/textView90"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:clickable="true"
+android:background="@drawable/hues"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="25dp"
+                android:text="Task#1:"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView91"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -112,7 +131,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView90"
+                android:id="@+id/textView92"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -126,7 +145,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView90"
+                android:id="@+id/textView93"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -140,7 +159,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView90"
+                android:id="@+id/textView94"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -154,21 +173,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView90"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="26dp"
-                android:layout_marginLeft="26dp"
-                android:layout_marginTop="25dp"
-                android:text="Task#1:"
-                android:textSize="20dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView90"
+                android:id="@+id/textView95"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -184,7 +189,7 @@
 
 
             <TextView
-                android:id="@+id/textView90"
+                android:id="@+id/textView96"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -198,7 +203,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView90"
+                android:id="@+id/textView97"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -212,7 +217,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView90"
+                android:id="@+id/textView98"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -226,7 +231,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView90"
+                android:id="@+id/textView99"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -239,19 +244,6 @@
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textView90"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="26dp"
-                android:layout_marginLeft="26dp"
-                android:layout_marginTop="25dp"
-                android:text="Task#1:"
-                android:textSize="20dp"
-                android:textStyle="bold" />
 
 
         </LinearLayout>

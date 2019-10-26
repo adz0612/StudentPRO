@@ -8,17 +8,30 @@
     tools:context=".Prof">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/chat"
         android:layout_width="204dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="17dp"
-        android:layout_marginLeft="17dp"
-        android:layout_marginTop="185dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="178dp"
         android:background="@drawable/prof_button"
         android:text="Chat with consultant" />
+
+    <Button
+        android:id="@+id/wallet"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="262dp"
+        android:background="@drawable/prof_button"
+        android:text="Wallet Organiser" />
 
     <View
         android:layout_width="wrap_content"
@@ -38,7 +51,7 @@
         android:layout_marginStart="143dp"
         android:layout_marginLeft="143dp"
         android:layout_marginTop="29dp"
-        android:text="Sem 1 Cgpa: 9.0 \n Participated in 4 Hackathons, won 2. \n Intern at Parallel Solutions."
+        android:text="Sem 1 Cgpa: 9.0 \n First Year Btech Student \n Participated in 4 Hackathons, won 2. \n Intern at Parallel Solutions."
         android:textStyle="bold" />
 
     <ImageView
@@ -53,4 +66,18 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="1dp"
         app:srcCompat="@drawable/avatar" />
+
+    <Button
+        android:id="@+id/internship"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginBottom="334dp"
+        android:background="@drawable/prof_button"
+        android:text="Internship oppurtunities" />
 </RelativeLayout>

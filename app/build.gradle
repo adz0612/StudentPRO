@@ -23,6 +23,8 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:+'
     implementation 'androidx.constraintlayout:constraintlayout:+'
+    implementation 'com.google.android.material:material:+'
+    implementation 'com.google.android.gms:play-services-maps:+'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:+'
     androidTestImplementation 'androidx.test.espresso:espresso-core:+'
