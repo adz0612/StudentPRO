@@ -46,9 +46,7 @@ Intent intent = getIntent();
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(),SignUp.class);
-                i.putExtra("key" , user_str);
-                        startActivity(i);
+                startActivity(new Intent(MainActivity.this , SignUp.class));
 
 
 
