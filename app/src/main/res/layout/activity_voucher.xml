@@ -33,7 +33,7 @@
         android:layout_marginLeft="26dp"
         android:layout_marginTop="206dp"
         android:background="@drawable/book_voucher"
-        android:text="Book My Show" />
+        android:text="Redeem" />
 
     <TextView
         android:id="@+id/textView27"
@@ -59,6 +59,26 @@
         android:layout_marginLeft="27dp"
         android:layout_marginTop="312dp"
         android:background="@drawable/dominos"
-        android:text="Dominos" />
+        android:text="Redeem" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="281dp"
+        android:text="Get a Dominos Voucher" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="177dp"
+        android:text="Get a BookMyShow Voucher" />
 
 </RelativeLayout>
